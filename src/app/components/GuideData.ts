@@ -51,7 +51,7 @@ export const guides: Guide[] = [
     image: "https://images.unsplash.com/photo-1623329385382-bc435e9e9414?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxvbmxpbmUlMjBwb3J0YWwlMjBnb3Zlcm5tZW50JTIwc2VydmljZXMlMjBkaWdpdGFsfGVufDF8fHx8MTc4MTQzNjM4OHww&ixlib=rb-4.1.0&q=80&w=1080",
     section: "online-portal",
     steps: [
-      { title: "Visit the Portal Website", description: "Open your web browser and navigate to the official portal website. Make sure you are on the correct and secure URL before proceeding.", image: "" },
+      { title: "Visit the Portal Website", description: "Open your web browser and navigate to the official portal website. Make sure you are on the correct and secure URL before proceeding.", image: "images/wifw.jpg" },
       { title: "Click 'Register'", description: "On the homepage, locate and click the 'Register' or 'Sign Up' button, usually found in the top-right corner of the page.", image: "" },
       { title: "Fill in Personal Details", description: "Enter your full name, date of birth, and a valid email address. Make sure all information matches your official identification documents.", image: "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
       { title: "Create a Password", description: "Choose a strong password with at least 8 characters, including uppercase, lowercase, a number, and a special character.", image: "https://images.unsplash.com/photo-1633356713697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },

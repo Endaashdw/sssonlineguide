@@ -160,8 +160,10 @@ function GuideCard({ guide, onSelect }: { guide: Guide; onSelect: (id: string) =
       className="group text-left w-full rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1"
       style={{
         boxShadow: "0 2px 12px rgba(50,79,225,0.08)",
-        border: "1px solid rgba(50,79,225,0.12)",
-        background: "white",
+        border: "0",
+        background: "transparent",
+        outline: "none",
+        padding: 0,
       }}
     >
       {/* Image with overlay title */}
@@ -169,7 +171,7 @@ function GuideCard({ guide, onSelect }: { guide: Guide; onSelect: (id: string) =
         <img
           src={guide.image}
           alt={guide.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover"
         />
         {/* Deep gradient so title is readable */}
         <div
@@ -192,7 +194,7 @@ function GuideCard({ guide, onSelect }: { guide: Guide; onSelect: (id: string) =
       </div>
 
       {/* Content */}
-      <div className="px-4 pt-3 pb-4">
+      <div className="px-4 pt-3 pb-4 bg-white">
         <p
           className="text-xs"
           style={{
@@ -208,7 +210,6 @@ function GuideCard({ guide, onSelect }: { guide: Guide; onSelect: (id: string) =
         </p>
         <div
           className="mt-3 pt-3 flex items-center gap-1.5"
-          style={{ borderTop: "1px solid rgba(50,79,225,0.10)" }}
         >
           <span
             className="flex items-center gap-1 text-xs transition-gap duration-200"

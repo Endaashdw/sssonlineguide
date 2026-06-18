@@ -48,7 +48,7 @@ export const guides: Guide[] = [
     id: "get-sss-number",
     title: "Not yet an SSS member?",
     description: "Get your SSS number by following these steps.",
-    image: "https://images.unsplash.com/photo-1623329385382-bc435e9e9414?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHw0fHxvbmxpbmUlMjBwb3J0YWwlMjBnb3Zlcm5tZW50JTIwc2VydmljZXMlMjBkaWdpdGFsfGVufDF8fHx8MTc4MTQzNjM4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/notyet.png",
     section: "online-portal",
     steps: [
       { title: "Visit the Portal Website", description: "Open your web browser and navigate to the official portal website. Make sure you are on the correct and secure URL before proceeding.", image: "images/wifw.jpg" },
@@ -63,7 +63,7 @@ export const guides: Guide[] = [
     id: "register-online",
     title: "Not yet registered online?",
     description: "Register for your SSS online account to access the SSS portal.",
-    image: "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBwb3J0YWwlMjBnb3Zlcm5tZW50JTIwc2VydmljZXMlMjBkaWdpdGFsfGVufDF8fHx8MTc4MTQzNjM4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/registeronline.png",
     section: "online-portal",
     steps: [
       { title: "Go to the Portal Homepage", description: "Open your browser and visit the official portal website.", image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -77,7 +77,7 @@ export const guides: Guide[] = [
     id: "online-acop",
     title: "Haven't complied with your ACOP yet?",
     description: "Submit your ACOP online thru facial authentication with National ID/PhilSys Registration.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBzZXJ2aWNlcyUyMGRpZ2l0YWwlMjB0ZWNobm9sb2d5JTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzgxNDM2MzkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/noacop.png",
     section: "online-portal",
     steps: [
       { title: "Go to the Login Page", description: "Navigate to the portal login page on your web browser.", image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -94,7 +94,7 @@ export const guides: Guide[] = [
     id: "reset-password",
     title: "How to Reset Your Password?",
     description: "Regain access to your account by resetting your password.",
-    image: "images/PasswordReset.png",
+    image: "images/PasswordReset.jpg",
     section: "online-services",
     steps: [
       { title: "Go to www.sss.gov.ph", description: "Click Login to MY.SSS.", image: "images/ONLINERESET/Step1.jpg" },
@@ -112,8 +112,8 @@ export const guides: Guide[] = [
   {
     id: "acop-auth",
     title: "How to Authenticate Your ACOP?",
-    description: "Learn how to authenticate your ACOP using facial recognition (check qr plz).",
-    image: "images/ACOPCompliance.png",
+    description: "Learn how to authenticate your ACOP using facial recognition.",
+    image: "images/acop.png",
     section: "online-services",
     steps: [
       { title: "Open your 'Google Chrome' and search 'www.sss.gov.ph'", description: "", image: "images/ACOPFACIAL/Step1.jpg" },
@@ -132,7 +132,7 @@ export const guides: Guide[] = [
     id: "apply-sss-card",
     title: "How to Apply for an SSS Card?",
     description: "Learn how to apply for a new SSS card online.",
-    image: "images/MySSSCard.png",
+    image: "images/card.png",
     section: "online-services",
     steps: [
       { title: "Scan this QR", description: "Or Log in to your SSS acount at My.SSS Member Portal (https://member.sss.gov.ph)", image: "images/SSSCARD/Step1.png" },
@@ -151,7 +151,7 @@ export const guides: Guide[] = [
     id: "set-appointment-benefit-claim",
     title: "How to Set an Appointment for Benefit Claim?",
     description: "Learn how to schedule an appointment for your benefit claim.",
-    image: "images/BENEFIT.png",
+    image: "images/appointment.png",
     section: "online-services",
     steps: [
       { title: "Schedule an APPOINTMENT email", description: "Email it to sssbacolodacoprdf@sss.gov.ph", image: "images/APPOINTMENT/Step1.PNG" },
@@ -162,7 +162,7 @@ export const guides: Guide[] = [
     id: "bank-disbursement-account-enrollment",
     title: "Bank Disbursement Account Enrollment Module",
     description: "Learn how to enroll your bank account for SSS benefit disbursement online.",
-    image: "images/DAEM.jpg",
+    image: "images/daem.png",
     section: "online-services",
     steps: [
       { title: "Open your 'GOOGLE CHROME'", description: "", image: "images/DAEM/Step1.png" },
@@ -182,7 +182,7 @@ export const guides: Guide[] = [
     id: "non-bank-disbursement-account-enrollment",
     title: "How to Enroll for Non-Bank Disbursement Account?",
     description: "Enroll your non-bank account for SSS benefit disbursement online.",
-    image: "images/DAEM.jpg",
+    image: "images/nonbank.png",
     section: "online-services",
     steps: [
       { title: "Open your 'GOOGLE CHROME'", description: "", image: "images/NONDAEM/Step1.png" },
@@ -204,7 +204,7 @@ export const guides: Guide[] = [
     id: "funeral-claim",
     title: "How to Apply for Funeral Claim?",
     description: "Apply for funeral benefits online by following these steps.",
-    image: "https://images.unsplash.com/photo-1562646329-0d0f4d3bf503?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBiZW5lZml0cyUyMHNvY2lhbCUyMHNlcnZpY2VzJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzgxNDM2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/funeral.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to the Portal", description: "Sign in with your registered account credentials.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -220,7 +220,7 @@ export const guides: Guide[] = [
     id: "retirement-claim",
     title: "Learn how to process your retirement claim/lump sum application online.",
     description: "Monitor the progress of your benefit application.",
-    image: "https://images.unsplash.com/photo-1641790016790-87f04a7fc9b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBwb3J0YWwlMjBnb3Zlcm5tZW50JTIwc2VydmljZXMlMjBkaWdpdGFsfGVufDF8fHx8MTc4MTQzNjM4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/retirement.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to Your Account", description: "Access the portal using your email and password.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -234,7 +234,7 @@ export const guides: Guide[] = [
     id: "death-claim",
     title: "How to Apply for Death Claim?",
     description: "Submit a claim for death benefits online.",
-    image: "https://images.unsplash.com/photo-1722937117724-4044158343df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxvbmxpbmUlMjBiZW5lZml0cyUyMHNvY2lhbCUyMHNlcnZpY2VzJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzgxNDM2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/death.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to the Portal", description: "Sign in to your account using your credentials.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -249,7 +249,7 @@ export const guides: Guide[] = [
     id: "sickness-benefit",
     title: "How to File a Sickness Benefit Claim?",
     description: "Submit a claim to receive your entitled sickness benefits.",
-    image: "https://images.unsplash.com/photo-1627905644737-c10eef6c542d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBiZW5lZml0cyUyMHNvY2lhbCUyMHNlcnZpY2VzJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzgxNDM2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/sick.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to the Portal", description: "Access your account using your registered credentials.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -264,7 +264,7 @@ export const guides: Guide[] = [
     id: "maternity-benefit",
     title: "How to Apply for Maternity Benefit?",
     description: "Guide on filing for maternity benefit online.",
-    image: "https://images.unsplash.com/photo-1562646329-0d0f4d3bf503?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBiZW5lZml0cyUyMHNvY2lhbCUyMHNlcnZpY2VzJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzgxNDM2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/mat.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to Your Account", description: "Sign in to the portal using your credentials.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -278,7 +278,7 @@ export const guides: Guide[] = [
     id: "disability-claim",
     title: "How to Apply for Disability Claim?",
     description: "Guide on filing for disability claim online.",
-    image: "https://images.unsplash.com/photo-1562646329-0d0f4d3bf503?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvbmxpbmUlMjBiZW5lZml0cyUyMHNvY2lhbCUyMHNlcnZpY2VzJTIwYXBwbGljYXRpb258ZW58MXx8fHwxNzgxNDM2Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/disab.png",
     section: "online-benefits",
     steps: [
       { title: "Log In to the Portal", description: "Sign in to your online account.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -295,7 +295,7 @@ export const guides: Guide[] = [
     id: "salary-loan",
     title: "How to Apply for a Salary/Calamity/Emergency Loan?",
     description: "Learn how to submit your loan application through the online portal.",
-    image: "https://images.unsplash.com/photo-1559067341-04a52c7d06d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxsb2FuJTIwYmFuayUyMGZpbmFuY2UlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3ODE0MzYzOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/loan.png",
     section: "loan-online",
     steps: [
       { title: "Log In to the Portal", description: "Sign in to your registered account on the portal.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
@@ -311,7 +311,7 @@ export const guides: Guide[] = [
     id: "pension-loan",
     title: "How to file for pension loan?",
     description: "Learn how to apply for a pension loan.",
-    image: "https://images.unsplash.com/photo-1684679674829-fc7b436ec8e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxsb2FuJTIwYmFuayUyMGZpbmFuY2UlMjBhcHBsaWNhdGlvbnxlbnwxfHx8fDE3ODE0MzYzOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "images/penloan.png",
     section: "loan-online",
     steps: [
       { title: "Log In to Your Account", description: "Access your portal account using your credentials.", image: "https://images.unsplash.com/photo-1633356313697-d83eb2f8fa49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" },
